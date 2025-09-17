@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
-  "version": "2.0.0",
+  "name": "donut-project",
+  "version": "1.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://andriqwl.github.io/Donut-project",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/andriqwl/Donut-project.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Andrian Kostyk <andriank4393@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/andriqwl/Donut-project/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
