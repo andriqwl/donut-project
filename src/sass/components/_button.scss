@@ -1,0 +1,23 @@
+.button {
+  font-size: 18px;
+  font-weight: 300;
+  width: 145px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #f3848c;
+  box-shadow: 15px 17px 30px rgba(243, 132, 140, 0.3);
+
+  transform: scale(1);
+  transition-property: transform, box-shadow, background-color;
+  transition-duration: 300ms, 400ms, 600ms;
+  transition-timing-function: ease-in-out, linear, ease-in-out;
+}
+
+.button:hover {
+  transform: scale(0.9);
+  box-shadow: 10px 12px 25px rgba(243, 132, 140, 0.7);
+  background-color: #dd6872;
+}
