@@ -1,3 +1,9 @@
 @import './global/common';
-@import './components/button';
+@import './global/reset';
+@import './global/base';
+
+@import './utils/variables';
+@import './utils/placeholders';
+
 @import './components/container';
+@import './components/button';
