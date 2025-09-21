@@ -1,0 +1,160 @@
+.logo__img {
+  width: 108px;
+  position: fixed;
+  z-index: 999;
+}
+
+.header {
+  position: relative;
+}
+
+.header__wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .header__wrap {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu__nav {
+    position: fixed;
+    padding-top: 120px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    background-color: #e5e2e3;
+    transform: translateX(100%);
+    transition: transform 0.25s linear;
+
+    background-image: url(../images/decor/decor1.svg),
+      url(../images/decor/decor2.svg), url(../images/decor/decor3.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%, 100% 12%, 95% 55%;
+  }
+  .menu__toggle {
+    display: none;
+  }
+  .menu__label {
+    text-transform: uppercase;
+    color: #f2f2f2;
+    position: relative;
+    z-index: 999;
+  }
+  .menu.open .menu__nav {
+    display: block;
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .menu__label {
+    display: none;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .nav__list {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+.nav__link {
+  font-size: 28px;
+  color: $color-title;
+  font-family: $font-secondary;
+  padding: 10px 28px;
+
+  &:hover {
+    color: $color-bg-white;
+
+    background: linear-gradient(
+      180deg,
+      rgba(248, 110, 103, 1) 63%,
+      rgba(253, 86, 143, 1) 86%
+    );
+  }
+}
+
+@media (min-width: 768px) {
+  .nav__link {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav__link {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+}
+
+.toggle-button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 999;
+  background-color: transparent;
+}
+.toggle-button::after,
+.toggle-button::before {
+  content: '';
+}
+.toggle-button::before {
+  top: 20%;
+}
+.toggle-button__line {
+  top: calc(50% - 1px);
+}
+.toggle-button::after {
+  top: 70%;
+}
+
+.toggle-button__line,
+.toggle-button::before,
+.toggle-button::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: $color-text-dark;
+  transition-property: transform, top;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0s, 0.5s;
+}
+
+.toggle-button.open .toggle-button__line {
+  transform-origin: left;
+  transform: scaleX(0);
+}
+.toggle-button.open::before,
+.toggle-button.open::after {
+  top: calc(50% - 1px);
+}
+.toggle-button.open::before {
+  transform: rotate(45deg);
+}
+.toggle-button.open::after {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+  .toggle-button {
+    display: none;
+  }
+}
