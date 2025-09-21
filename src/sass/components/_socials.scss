@@ -1,0 +1,32 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 8px;
+}
+
+.socials__item {
+  padding: 0px 5px;
+  border-radius: 5px;
+  fill: $color-title;
+  cursor: pointer;
+  transition: transform 0.5s ease, background-color 0.4s ease-in-out,
+    fill 0.1s ease;
+}
+
+.socials__item:hover {
+  fill: $color-bg-white;
+  background-color: $color-primary-pink;
+  transform: scale(1.2);
+}
+
+.socials__icon {
+  height: 16px;
+  width: 16px;
+}
+
+@media (min-width: 768px) {
+  .socials {
+    justify-content: start;
+  }
+}
