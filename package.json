@@ -5,7 +5,7 @@
   "homepage": "https://andriqwl.github.io/Donut-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Donut-project/"
   },
   "repository": {
     "type": "git",
