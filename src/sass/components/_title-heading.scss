@@ -1,0 +1,20 @@
+.title-heading {
+  font-size: 28px;
+  font-family: $font-secondary;
+  text-align: center;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.title-heading::after {
+  position: absolute;
+  content: '';
+  height: 90px;
+  width: 90px;
+  background-color: transparent;
+  border-radius: 50%;
+  outline: 15px solid rgba(60, 50, 45, 0.12);
+  bottom: -10px;
+  right: 0;
+  transform: translateX(-50%);
+}
