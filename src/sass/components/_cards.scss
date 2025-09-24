@@ -1,0 +1,11 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    gap: 14px;
+  }
+}
