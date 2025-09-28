@@ -2,20 +2,20 @@
   "name": "donut-project",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://andriqwl.github.io/Donut-project",
+  "homepage": "https://andriqwl.github.io/donut-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Donut-project/"
+    "build": "parcel build src/*.html --public-url /donut-project/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andriqwl/Donut-project.git"
+    "url": "git+https://github.com/andriqwl/donut-project.git"
   },
   "keywords": [],
   "author": "Andrian Kostyk <andriank4393@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andriqwl/Donut-project/issues"
+    "url": "https://github.com/andriqwl/donut-project/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
