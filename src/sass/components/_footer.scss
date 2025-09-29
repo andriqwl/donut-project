@@ -1,0 +1,31 @@
+.footer {
+  padding-bottom: 17px;
+  background-image: url('../images/footer/footer__dunat.png');
+  background-position: center;
+}
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__link{
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer__icon {
+  width: 13px;
+  height: 13px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    padding-bottom: 100px;
+  }
+}

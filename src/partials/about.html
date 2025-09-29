@@ -1,10 +1,12 @@
 <section class="about">
-  <div class="container">
+  <div class="container about__container">
     <div class="about__image">
-      <img
-        src="/src/images/about/about-mobile.jpg"
-        alt="Donuts"
-      />
+      <picture>
+        <source srcset="./images/about/about-mobile.png 1x, ./images/about/about-mobile@2x.png 2x" media="(max-width: 767px)">
+        <source srcset="./images/about/about-tablet.png 1x, ./images/about/about-tablet@2x.png 2x" media="(max-width: 1279px)">
+        <source srcset="./images/about/about-desktop.png 1x, ./images/about/about-desktop@2x.png 2x" media="(man-width: 1280px)">
+        <img src="./images/about/about-desktop.png" alt="donuts">
+      </picture>
     </div>
     <div class="about__content">
       <h2 class="about__content-title">About us</h2>
