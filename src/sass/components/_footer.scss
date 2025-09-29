@@ -1,6 +1,7 @@
 .footer {
   padding-bottom: 17px;
-  background-image: url('../images/footer/footer__dunat.png');
+  background-image: url('../images/footer/footer__dunat.png') 1x,
+  url('../images/footer__dunat@2x.png');
   background-position: center;
 }
 .footer__container{
