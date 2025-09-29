@@ -22,10 +22,17 @@
   padding-bottom: 16px;
 }
 
-.contacts__input {
+.contacts__form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
+}
+
+.contacts__label {
+  position: absolute;
+  width: 0px;
+  font-size: 0px;
 }
 
 .contacts__email,
