@@ -2,24 +2,29 @@
   <div class="container contacts__wrap">
     <h2 class="contacts__title">Contact</h2>
     <p class="contacts__question">We will answer any question!</p>
-    <div class="contacts__input">
+    <form class="contacts__form" data-contact_form>
+      <label class="contacts__label" for="user_emails">Email</label>
       <input
         type="email"
-        name=""
+        name="user_email"
         class="contacts__email"
-        id=""
+        id="user_emails"
         placeholder="Email"
+        required
       />
+      <label class="contacts__label" for="user_questions"
+        >Type your question</label
+      >
       <input
         type="text"
-        name=""
+        name="user_question"
         class="contacts__text"
-        id=""
+        id="user_questions"
         placeholder="Type your question"
+        required
       />
-    </div>
-
-    <button class="button button--position" data-open_modal>Send</button>
+      <button class="button button--position" data-open_modal>Send</button>
+    </form>
 
     <ul class="socials">
       <li class="socials__item">
@@ -49,7 +54,9 @@
 
     <div class="backdrop is__hidden" data-modal>
       <div class="popup">
-        <button class="close__button" data-close_modal>&#x2715;</button>
+        <button class="close__button" type="button" data-close_modal>
+          &#x2715;
+        </button>
         <h2 class="popup__text">
           Дякую за запитання, будь ласка почекайте відповідь.
         </h2>
