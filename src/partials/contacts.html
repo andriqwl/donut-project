@@ -1,0 +1,59 @@
+<section class="contacts">
+  <div class="container contacts__wrap">
+    <h2 class="contacts__title">Contact</h2>
+    <p class="contacts__question">We will answer any question!</p>
+    <div class="contacts__input">
+      <input
+        type="email"
+        name=""
+        class="contacts__email"
+        id=""
+        placeholder="Email"
+      />
+      <input
+        type="text"
+        name=""
+        class="contacts__text"
+        id=""
+        placeholder="Type your question"
+      />
+    </div>
+
+    <button class="button button--position" data-open_modal>Send</button>
+
+    <ul class="socials">
+      <li class="socials__item">
+        <a class="socials__link" href="#" class="link">
+          <svg class="socials__icon">
+            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li class="socials__item">
+        <a class="socials__link" href="#">
+          <svg class="socials__icon">
+            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li class="socials__item">
+        <a class="socials__link" href="#">
+          <svg class="socials__icon">
+            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <div class="backdrop is__hidden" data-modal>
+      <div class="popup">
+        <button class="close__button" data-close_modal>&#x2715;</button>
+        <h2 class="popup__text">
+          Дякую за запитання, будь ласка почекайте відповідь.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>

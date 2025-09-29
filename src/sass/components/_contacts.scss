@@ -1,0 +1,54 @@
+.contacts {
+  padding: 126px 0 100px;
+}
+
+.contacts__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: $color-dark-gray;
+  padding-bottom: 27px;
+}
+
+.contacts__question {
+  font-size: 16px;
+  font-weight: 400;
+  color: $color-dark-gray;
+  padding-bottom: 16px;
+}
+
+.contacts__input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts__email,
+.contacts__text {
+  border-bottom: 1px solid $color-text-dark;
+}
+
+.contacts__email::placeholder,
+.contacts__text::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .contacts__title {
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contacts__question {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
