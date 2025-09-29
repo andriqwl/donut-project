@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Donut</title><link rel=stylesheet href=/donut-project/donut-project.0d087303.css><script type=module src=/donut-project/donut-project.b5c03f73.js></script><body>
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Donut</title><link rel=stylesheet href=/donut-project/donut-project.f9e75ad2.css><script type=module src=/donut-project/donut-project.96ec80bd.js></script><body>
     
     
     <header class=header>
@@ -63,6 +63,48 @@
         </a>
       </li>
     </ul>
+  </div>
+</section>
+
+    <section class=program>
+  <div class="container'">
+    <div class=program__wrap>
+      <div class=program__left>
+        <h2 class=title-heading>Program</h2>
+        <div class=program__content>
+          <p class=program__text>
+            ndulge in this immersive sweet treat experience with The Chef Donut
+            Queen in her New York donut shop!
+          </p>
+          <ul class=program__list>
+            <li class=program__item>A stand up history of donuts</li>
+            <li class=program__item>Make 3 donut flavors of your choice</li>
+            <li class=program__item>Enjoy all-you-can-eat donuts</li>
+            <li class=program__item>Cocktail pairings and coffee included</li>
+            <li class=program__item>
+              Photoshoot by professional photographer
+            </li>
+            <li class=program__item>Secret receipt of cooking from Eva</li>
+            <li class=program__item>
+              All products are included in the price
+            </li>
+          </ul>
+          <p class=program__text>
+            Come with your dear people and friends and you will spend an
+            unforgettable time and will become a real professional in donuts
+            cooking!
+          </p>
+        </div>
+      </div>
+      <div class=program__center>
+        <img src=# alt=gh>
+        <img src=# alt=gh>
+      </div>
+      <div class=program__right>
+        <img src=# alt=gh>
+        <img src=# alt=gh>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -184,13 +226,12 @@
   <div class="contacts__wrap container">
     <h2 class=contacts__title>Contact</h2>
     <p class=contacts__question>We will answer any question!</p>
-    <form class=contacts__form data-contact_form>
-      <label class=contacts__label for=user_emails>Email</label>
-      <input type=email name=user_email class=contacts__email id=user_emails placeholder=Email required>
-      <label class=contacts__label for=user_questions>Type your question</label>
-      <input name=user_question class=contacts__text id=user_questions placeholder="Type your question" required>
-      <button class="button button--position" data-open_modal>Send</button>
-    </form>
+    <div class=contacts__input>
+      <input type=email name class=contacts__email id placeholder=Email>
+      <input name class=contacts__text id placeholder="Type your question">
+    </div>
+
+    <button class="button button--position" data-open_modal>Send</button>
 
     <ul class=socials>
       <li class=socials__item>
@@ -214,9 +255,7 @@
 
     <div class="backdrop is__hidden" data-modal>
       <div class=popup>
-        <button class=close__button type=button data-close_modal>
-          ✕
-        </button>
+        <button class=close__button data-close_modal>✕</button>
         <h2 class=popup__text>
           Дякую за запитання, будь ласка почекайте відповідь.
         </h2>
