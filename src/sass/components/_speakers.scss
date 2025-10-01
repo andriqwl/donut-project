@@ -1,5 +1,10 @@
 .speakers {
   padding: 35px 0 33px;
+  background-image: url(../images/decor/decor4.svg),
+    url(../images/decor/decor5.svg), url(../images/decor/decor6.svg),
+    url(../images/decor/decor7.svg), url(../images/decor/decor7.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 10%, 28% 5%, 0% 17%, 11% 0%, 71% 0%;
 }
 
 .speakers__title {
