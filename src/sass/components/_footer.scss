@@ -1,7 +1,8 @@
 .footer {
   padding-bottom: 17px;
-  background-image: url('../images/footer/footer__dunat.png');
+  background-image: url('../images/footer/donut.webp');
   background-position: center;
+  background-repeat: no-repeat;
 }
 .footer__container{
   display: flex;
@@ -21,6 +22,7 @@
 @media (min-width: 768px) {
   .footer {
     padding-bottom: 80px;
+    background-image: none;
   }
 }
 
