@@ -1,0 +1,98 @@
+.speakers {
+  padding: 35px 0 33px;
+}
+
+.speakers__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c322d;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.speakers__item {
+  max-width: 130px;
+  text-align: center;
+}
+
+.speakers__img {
+  max-width: 130px;
+  background-color: #f3848c4a;
+  border-radius: 100%;
+}
+
+.speakers__name {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.speakers__discription {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .speakers {
+    padding: 44px 0 77px;
+  }
+
+  .speakers__title {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+
+  .speakers__list {
+    gap: 32px;
+  }
+
+  .speakers__item {
+    max-width: 152px;
+  }
+
+  .speakers__img {
+    max-width: 152px;
+  }
+
+  .speakers__name {
+    font-size: 18px;
+    padding: 20px 0;
+  }
+
+  .speakers__discription {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .speakers {
+    padding: 100px 0;
+  }
+
+  .speakers__title {
+    padding-bottom: 5px;
+  }
+
+  .speakers__item {
+    max-width: 288px;
+  }
+
+  .speakers__img {
+    max-width: 288px;
+  }
+
+  .speakers__name {
+    font-size: 18px;
+  }
+
+  .speakers__discription {
+    font-size: 16px;
+  }
+}
