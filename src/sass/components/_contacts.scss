@@ -1,5 +1,10 @@
 .contacts {
   padding: 126px 0 100px;
+  background-image: url(../images/decor/decor8.svg),
+    url(../images/decor/decor5.svg), url(../images/decor/decor10.svg),
+    url(../images/decor/decor9.svg), url(../images/decor/decor11.svg);
+  background-repeat: no-repeat;
+  background-position: 14% 88%, 40% 11%, 33% 63%, 75% 37%, 87% 73%;
 }
 
 .contacts__wrap {
