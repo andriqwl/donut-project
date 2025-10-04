@@ -18,3 +18,15 @@
   right: 0;
   transform: translateX(-50%);
 }
+
+@media (min-width: 768px) {
+  .title-heading--left {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-heading--left {
+    padding-top: 61px;
+  }
+}
