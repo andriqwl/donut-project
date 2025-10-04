@@ -1,3 +1,26 @@
 .price {
   padding: 40px 0;
+  position: relative;
+}
+.price::after {
+  position: absolute;
+  content: '';
+  height: 90px;
+  width: 90px;
+  background-color: transparent;
+  border-radius: 50%;
+  outline: 12px solid rgba(113, 92, 93, 0.179);
+  bottom: -120px;
+  right: 65%;
+}
+.price::before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  outline: 7px solid rgba(113, 92, 93, 0.179);
+  bottom: -20px;
+  right: 20%;
 }
