@@ -6,6 +6,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  padding-top: 81px;
 }
 
 .hero__title {
@@ -14,8 +16,6 @@
   text-align: center;
   font-weight: 600;
   position: relative;
-
-  padding-top: 80px;
 }
 
 .hero__title::before {
