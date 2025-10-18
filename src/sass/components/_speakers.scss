@@ -23,8 +23,11 @@
 }
 
 .speakers__item {
-  max-width: 130px;
   text-align: center;
+  flex-basis: calc(25% - 24px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .speakers__img {
@@ -58,10 +61,6 @@
     gap: 32px;
   }
 
-  .speakers__item {
-    max-width: 152px;
-  }
-
   .speakers__img {
     max-width: 152px;
   }
@@ -83,10 +82,6 @@
 
   .speakers__title {
     padding-bottom: 5px;
-  }
-
-  .speakers__item {
-    max-width: 288px;
   }
 
   .speakers__img {
