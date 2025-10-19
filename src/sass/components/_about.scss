@@ -3,6 +3,7 @@
   }
   .about__image{
     margin-bottom: 28px;
+    width: max-content;
   }
   .about__content-title {
       font-family: $font-secondary;
@@ -26,12 +27,16 @@
       line-height: 1.2;
       text-align: center;
       margin-bottom: 18px;
+      background-color: #fff;
   }
 @media (min-width: 768px){
   .about{
       padding-top: 36px;
       padding-bottom: 29px;
 }
+.about__content{
+    width: 60%;
+  }
   .about__container {
       display: flex;
       flex-direction: row;
@@ -57,6 +62,12 @@
       line-height: 1.2;
       display: inline-block;
       margin-bottom: 29px;
+      background-color: #fff;
+  }
+}
+.about__content-text:nth-of-type(3) {
+  @media (max-width: 1279px) {
+    display: none;
   }
 }
 @media (min-width: 1280px){
@@ -75,6 +86,8 @@
       font-size: 18px;
       font-family: $font-primary;
       text-align: left;
-      margin-bottom: 46px;
 }
+  .about__button{
+    display: none;
+  }
 }
