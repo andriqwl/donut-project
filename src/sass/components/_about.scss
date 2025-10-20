@@ -39,6 +39,9 @@
   .about {
     padding: 20px 0 18px;
   }
+  .about__image{
+    margin-bottom: 28px;
+    width: max-content;
   .about__container {
     display: flex;
     flex-direction: row;
@@ -106,6 +109,12 @@
     padding-top: 64px;
     padding-bottom: 0px;
   }
+}
+@media (min-width: 1280px){
+  .about{
+      padding-top: 64px;
+      padding-bottom: 0px;
+}
   .about__content-title {
     font-family: $font-secondary;
     font-weight: 500;
@@ -118,5 +127,9 @@
     font-family: $font-primary;
     text-align: left;
     margin-bottom: 46px;
+  }
+}
+  .about__button{
+    display: none;
   }
 }
