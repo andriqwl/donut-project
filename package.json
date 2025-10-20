@@ -18,7 +18,8 @@
     "url": "https://github.com/andriqwl/donut-project/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "swiper": "^12.0.2"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.16.0",
