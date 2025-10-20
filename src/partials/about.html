@@ -1,21 +1,24 @@
-<section class="about">
+<section class="about" id="about">
   <div class="container about__container">
     <picture class="about__image">
       <source
         srcset="
-          ./images/about/donut-mobile.webp 1x, ./images/about/donut-mobile@2x.webp 2x
+          ./images/about/donut-mobile.webp    1x,
+          ./images/about/donut-mobile@2x.webp 2x
         "
         media="(max-width: 767px)"
       />
       <source
         srcset="
-          ./images/about/donut-tablet.webp 1x, ./images/about/donut-tablet@2x.webp 2x
+          ./images/about/donut-tablet.webp    1x,
+          ./images/about/donut-tablet@2x.webp 2x
         "
         media="(max-width: 768px)"
       />
       <source
         srcset="
-          ./images/about/donut-desktop.webp 1x, ./images/about/donut-desktop@2x.webp 2x
+          ./images/about/donut-desktop.webp    1x,
+          ./images/about/donut-desktop@2x.webp 2x
         "
         media="(min-width: 1280px)"
       />
@@ -27,7 +30,7 @@
     </picture>
 
     <div class="about__content">
-      <h2 class="about__tcontent-itle">About us</h2>
+      <h2 class="about__content-title">About us</h2>
       <p class="about__content-text">
         Oh My Donut is the shop which adores tasty deserts and spend hours to
         create sophisticated donuts which will save the world!
@@ -38,12 +41,18 @@
         many celebrities. Eva and our shop have received multiple awards &
         recognition for excellence.
       </p>
-      <p class="about__content-text">
+      <p class="about__content-text about__content-text--hidden">
         We are going to teach you how to cook with passion and sparkles in your
         eyes! We love what we do and believe you will enjoy our cooking
         atmosphere!
       </p>
-      <button class="about__button" type="button">Read more</button>
+      <button
+        class="about__button"
+        aria-label="Read more about donut"
+        type="button"
+      >
+        Read more
+      </button>
     </div>
   </div>
 </section>

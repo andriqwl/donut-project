@@ -1,4 +1,4 @@
-registration{
+.registration{
     padding: 40px 0 40px;
 }
 .registration__title{
@@ -82,13 +82,7 @@ registration{
     background-size: 100px, contain, contain,contain;
     background-position: 30px 80%,left center,center,right center;
     background-repeat: no-repeat,no-repeat,no-repeat,repeat-x;
-    max-width: 5000px;
-    margin-inline: auto;
-}
-.registration__info{
-    padding-block: 59px;
-    padding-right: 28px;
-    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    max-width: 1305px;
 }
 .registration-form{
     display: flex;
@@ -125,9 +119,6 @@ registration{
     .registration{
         padding: 103px 0 126px;
     }
-    .registration__content{
-         max-width: 2000px;
-    }
     .registration-date{
         font-size: 20px;
         text-align: right;
@@ -141,3 +132,5 @@ registration{
         color: $color-dark-gray;
     }
 }
+
+   

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; /* ось ця магія */
+}
 body {
   color: $color-title;
   font-family: $font-primary;
