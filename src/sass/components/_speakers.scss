@@ -24,14 +24,13 @@
 
 .speakers__item {
   text-align: center;
-  flex-basis: calc(25% - 24px);
+  flex-basis: calc((100% - 20px) / 2);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .speakers__img {
-  max-width: 130px;
   background-color: #f3848c4a;
   border-radius: 100%;
 }
@@ -61,8 +60,8 @@
     gap: 32px;
   }
 
-  .speakers__img {
-    max-width: 152px;
+  .speakers__item {
+    flex-basis: calc((100% - 96px) / 4);
   }
 
   .speakers__name {
@@ -82,10 +81,6 @@
 
   .speakers__title {
     padding-bottom: 5px;
-  }
-
-  .speakers__img {
-    max-width: 288px;
   }
 
   .speakers__name {
